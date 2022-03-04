@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Notion Search",
+  "version": "1.0.0",
+  "description": "Notion Search Sidebar Extension App",
+  "icons": {},
+  "sidebar_action": {
+    "default_page": "sidebar.html",
+    "default_icon": {
+    },
+    "default_title": "Notion Search",
+    "use_navigation_bar": true
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "*://www.notion.so/*"
+  ]
+}
